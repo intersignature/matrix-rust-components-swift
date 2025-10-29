@@ -7,7 +7,7 @@ let url = "https://github.com/element-hq/matrix-rust-components-swift/releases/d
 let package = Package(
     name: "MatrixRustSDK",
     platforms: [
-        .iOS(.v16)
+        .iOS(.v13)
     ],
     products: [
         .library(name: "MatrixRustSDK", type: .dynamic, targets: ["MatrixRustSDK"]),
